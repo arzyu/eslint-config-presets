@@ -13,3 +13,4 @@ extends:
   # shortcut options
   - presets/lib/rules/space-2.yml
   - presets/lib/rules/semi-always.yml
+

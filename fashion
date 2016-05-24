@@ -14,3 +14,4 @@ extends:
   - presets/lib/rules/space-2.yml
   - presets/lib/rules/semi-never.yml
   - presets/lib/rules/comma-dangle-always-multiline.yml
+
