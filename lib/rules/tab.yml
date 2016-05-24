@@ -1,0 +1,3 @@
+---
+rules:
+  indent: [error, tab]

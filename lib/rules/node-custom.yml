@@ -1,0 +1,14 @@
+---
+env:
+  node: true
+rules:
+  callback-return: off
+  global-require: error
+  handle-callback-err: [error, '^.*(e|E)rr(or)?$']
+  no-mixed-requires: off
+  no-new-require: off
+  no-path-concat: off
+  no-process-env: error
+  no-process-exit: off
+  no-restricted-modules: off
+  no-sync: off
