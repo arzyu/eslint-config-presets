@@ -3,6 +3,10 @@
 extends:
   - presets/lib/misc/parser.yml
 
+  # env
+  - presets/lib/env/browser.yml
+  - presets/lib/env/node.yml
+
   # use recommended rules
   - presets/lib/rules/recommended.yml
 
