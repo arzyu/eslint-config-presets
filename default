@@ -1,20 +1,20 @@
 # vim: ft=yaml:
 ---
 extends:
-  - presets/lib/misc/parser.yml
+  - presets/misc/parser.yml
 
   # env
-  - presets/lib/env/browser.yml
-  - presets/lib/env/node.yml
+  - presets/env/browser.yml
+  - presets/env/node.yml
 
   # use recommended rules
-  - presets/lib/rules/recommended.yml
+  - presets/rules/recommended.yml
 
   # custom rules
-  - presets/lib/rules/base-custom.yml
-  - presets/lib/rules/node-custom.yml
+  - presets/rules/base-custom.yml
+  - presets/rules/node-custom.yml
 
   # shortcut options
-  - presets/lib/rules/space-2.yml
-  - presets/lib/rules/semi-always.yml
+  - presets/rules/space-2.yml
+  - presets/rules/semi-always.yml
 
