@@ -21,4 +21,5 @@ extends:
   # config for angular
   # dependencies: eslint-plugin-angular, eslint-config-angular
   - angular
+  - presets/rules/angular-custom.yml
 
