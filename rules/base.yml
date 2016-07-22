@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.0.0
+  ## based on eslint v3.1.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -151,8 +151,9 @@ rules:
   max-lines: off
   max-nested-callbacks: off
   max-params: off
-  max-statements: off
   max-statements-per-line: off
+  max-statements: off
+  multiline-ternary: off
   new-cap: off
   new-parens: off
   newline-after-var: off
