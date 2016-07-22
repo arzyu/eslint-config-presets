@@ -1,13 +1,12 @@
 ---
 rules:
 
-  ## based on eslint v2.12.0
+  ## based on eslint v3.0.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
   ## Possible Errors
 
-  #comma-dangle: error
   #no-cond-assign: error
   #no-console: error
   #no-constant-condition: error
@@ -33,7 +32,7 @@ rules:
   #no-sparse-arrays: error
   #no-unexpected-multiline: error
   #no-unreachable: error
-  no-unsafe-finally: off
+  #no-unsafe-finally: error
   #use-isnan: error
   valid-jsdoc: off
   #valid-typeof: error
@@ -43,7 +42,7 @@ rules:
   accessor-pairs: off
   array-callback-return: off
   block-scoped-var: off
-  complexity: [off, 11]
+  complexity: off
   consistent-return: off
   curly: off
   default-case: off
@@ -76,7 +75,7 @@ rules:
   no-magic-numbers: off
   no-multi-spaces: off
   no-multi-str: off
-  no-native-reassign: off
+  #no-native-reassign: error
   no-new: off
   no-new-func: off
   no-new-wrappers: off
@@ -131,6 +130,7 @@ rules:
   brace-style: off
   camelcase: off
   comma-spacing: off
+  ###comma-dangle: off
   comma-style: off
   computed-property-spacing: off
   consistent-this: off
@@ -226,7 +226,7 @@ rules:
   prefer-rest-params: off
   prefer-spread: off
   prefer-template: off
-  require-yield: off
+  #require-yield: error
   rest-spread-spacing: off
   sort-imports: off
   template-curly-spacing: off

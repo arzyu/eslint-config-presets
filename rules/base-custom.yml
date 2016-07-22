@@ -7,7 +7,6 @@ rules:
 
   ## Possible Errors
 
-  #comma-dangle: error
   #no-cond-assign: error
   #no-console: error
   #no-constant-condition: error
@@ -33,7 +32,7 @@ rules:
   #no-sparse-arrays: error
   #no-unexpected-multiline: error
   #no-unreachable: error
-  no-unsafe-finally: off
+  #no-unsafe-finally: error
   #use-isnan: error
   valid-jsdoc: off
   #valid-typeof: error
@@ -43,7 +42,7 @@ rules:
   accessor-pairs: off
   array-callback-return: error
   block-scoped-var: error
-  complexity: [off, 11]
+  complexity: off
   consistent-return: error
   curly: [error, all]
   default-case: error
@@ -76,7 +75,7 @@ rules:
   no-magic-numbers: off
   no-multi-spaces: error
   no-multi-str: error
-  no-native-reassign: error
+  #no-native-reassign: error
   no-new: error
   no-new-func: error
   no-new-wrappers: error
@@ -131,6 +130,7 @@ rules:
   brace-style: error
   camelcase: error
   comma-spacing: error
+  ###comma-dangle: off
   comma-style: off
   computed-property-spacing: error
   consistent-this: off
@@ -226,7 +226,7 @@ rules:
   prefer-rest-params: error
   prefer-spread: error
   prefer-template: error
-  require-yield: off
+  #require-yield: error
   rest-spread-spacing: error
   sort-imports: off
   template-curly-spacing: error
