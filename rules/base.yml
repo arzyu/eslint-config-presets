@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v2.11.0
+  ## based on eslint v2.12.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -148,6 +148,7 @@ rules:
   lines-around-comment: off
   max-depth: off
   max-len: off
+  max-lines: off
   max-nested-callbacks: off
   max-params: off
   max-statements: off
@@ -162,6 +163,7 @@ rules:
   no-continue: off
   no-inline-comments: off
   no-lonely-if: off
+  no-mixed-operators: off
   #no-mixed-spaces-and-tabs: error
   no-multiple-empty-lines: off
   no-negated-condition: off
@@ -175,6 +177,7 @@ rules:
   no-underscore-dangle: off
   no-unneeded-ternary: off
   no-whitespace-before-property: off
+  object-curly-newline: off
   object-curly-spacing: [off, never]
   object-property-newline: off
   one-var: off
@@ -224,6 +227,7 @@ rules:
   prefer-spread: off
   prefer-template: off
   require-yield: off
+  rest-spread-spacing: off
   sort-imports: off
   template-curly-spacing: off
   yield-star-spacing: off
