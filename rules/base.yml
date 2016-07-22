@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v2.10.2
+  ## based on eslint v2.11.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -28,6 +28,7 @@ rules:
   #no-irregular-whitespace: error
   #no-negated-in-lhs: error
   #no-obj-calls: error
+  no-prototype-builtins: off
   #no-regex-spaces: error
   #no-sparse-arrays: error
   #no-unexpected-multiline: error
@@ -193,6 +194,7 @@ rules:
   space-infix-ops: off
   space-unary-ops: off
   spaced-comment: off
+  unicode-bom: off
   wrap-regex: off
 
   ## ECMAScript 6
@@ -212,6 +214,7 @@ rules:
   #no-this-before-super: error
   no-useless-computed-key: off
   no-useless-constructor: off
+  no-useless-rename: off
   no-var: off
   object-shorthand: off
   prefer-arrow-callback: off

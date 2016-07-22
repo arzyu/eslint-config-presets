@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## Custom settings from `base.yml`
+  ## Custom settings of `base.yml`
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -28,6 +28,7 @@ rules:
   #no-irregular-whitespace: error
   #no-negated-in-lhs: error
   #no-obj-calls: error
+  no-prototype-builtins: off
   #no-regex-spaces: error
   #no-sparse-arrays: error
   #no-unexpected-multiline: error
@@ -193,6 +194,7 @@ rules:
   space-infix-ops: error
   space-unary-ops: error
   spaced-comment: error
+  unicode-bom: error
   wrap-regex: off
 
   ## ECMAScript 6
@@ -212,6 +214,7 @@ rules:
   #no-this-before-super: error
   no-useless-computed-key: error
   no-useless-constructor: error
+  no-useless-rename: off
   no-var: error
   object-shorthand: [error, always, {avoidQuotes: true}]
   prefer-arrow-callback: error
