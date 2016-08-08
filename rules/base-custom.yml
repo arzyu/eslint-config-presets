@@ -173,6 +173,7 @@ rules:
   no-plusplus: off
   no-restricted-syntax: off
   no-spaced-func: error
+  no-tabs: off
   no-ternary: off
   no-trailing-spaces: error
   no-underscore-dangle: [error, {allowAfterThis: true}]

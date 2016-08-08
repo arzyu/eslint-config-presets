@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.1.0
+  ## based on eslint v3.2.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -173,6 +173,7 @@ rules:
   no-plusplus: off
   no-restricted-syntax: off
   no-spaced-func: off
+  no-tabs: off
   no-ternary: off
   no-trailing-spaces: off
   no-underscore-dangle: off
