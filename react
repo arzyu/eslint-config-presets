@@ -1,0 +1,24 @@
+# vim: ft=yaml
+---
+extends:
+  - presets/misc/react.yml
+
+  # env
+  - presets/env/browser.yml
+  - presets/env/node.yml
+
+  # use recommended rules
+  - presets/rules/recommended.yml
+
+  # custom rules
+  - presets/rules/base-custom.yml
+  - presets/rules/node-custom.yml
+
+  # shortcut options
+  - presets/rules/space-2.yml
+  - presets/rules/semi-always.yml
+
+  # use react recommended rules
+  # dependencies: eslint-plugin-react
+  - plugin:react/recommended
+

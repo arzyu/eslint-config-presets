@@ -1,0 +1,9 @@
+---
+extends:
+  - presets/misc/parser.yml
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+plugins:
+  - react
+
