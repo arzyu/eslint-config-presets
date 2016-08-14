@@ -4,22 +4,58 @@
 
 ## Try it
 
+### Install
+
+#### presets/default
+
 ```bash
-# depedencies: eslint babel-eslint
-npm install --save-dev eslint babel-eslint
-
-# install from this repository
-npm install --save-dev arzyu/eslint-config-presets
+npm install --save-dev eslint babel-eslint arzyu/eslint-config-presets
 ```
 
-Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project.
+#### presets/angular
 
-```yaml
----
-# Note: `presets` is a shorthand of `presets/default`
-# You can also use other preset. (e.g. `presets/fashion`)
-extends: presets
+```bash
+npm install --save-dev eslint babel-eslint eslint-plugin-angular eslint-config-angular arzyu/eslint-config-presets
 ```
+
+#### presets/react
+
+```bash
+npm install --save-dev eslint babel-eslint eslint-plugin-react arzyu/eslint-config-presets
+```
+
+#### presets/react-native
+
+```bash
+npm install --save-dev eslint babel-eslint eslint-plugin-react-native arzyu/eslint-config-presets
+```
+
+### Use presets
+
+There are 2 ways to use these presets:
+
+1. Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project.
+
+	```yaml
+	---
+	# All available presets:
+	#   `presets/default`, or use `presets` for short
+	#   `presets/angular`
+	#   `presets/react`
+	#   `presets/react-native`
+
+	extends: presets/react
+	```
+
+2. Add `eslintConfig` option to `package.json`.
+
+	```json
+	{
+	  "eslintConfig": {
+		"extends": "presets/angular"
+	  }
+	}
+	```
 
 ## Fork it
 
