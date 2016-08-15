@@ -27,7 +27,7 @@ npm install --save-dev eslint babel-eslint eslint-plugin-react arzyu/eslint-conf
 #### presets/react-native
 
 ```bash
-npm install --save-dev eslint babel-eslint eslint-plugin-react-native arzyu/eslint-config-presets
+npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-plugin-react-native arzyu/eslint-config-presets
 ```
 
 ### Use presets
