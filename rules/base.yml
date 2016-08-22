@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.2.0
+  ## based on eslint v3.3.1
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -25,14 +25,15 @@ rules:
   #no-inner-declarations: error
   #no-invalid-regexp: error
   #no-irregular-whitespace: error
-  #no-negated-in-lhs: error
   #no-obj-calls: error
   no-prototype-builtins: off
   #no-regex-spaces: error
   #no-sparse-arrays: error
+  no-template-curly-in-string: off
   #no-unexpected-multiline: error
   #no-unreachable: error
   #no-unsafe-finally: error
+  no-unsafe-negation: off
   #use-isnan: error
   valid-jsdoc: off
   #valid-typeof: error
@@ -64,6 +65,7 @@ rules:
   no-extra-label: off
   #no-fallthrough: error
   no-floating-decimal: off
+  no-global-assign: off
   no-implicit-coercion: off
   no-implicit-globals: off
   no-implied-eval: off
@@ -75,7 +77,6 @@ rules:
   no-magic-numbers: off
   no-multi-spaces: off
   no-multi-str: off
-  #no-native-reassign: error
   no-new: off
   no-new-func: off
   no-new-wrappers: off
@@ -135,6 +136,7 @@ rules:
   computed-property-spacing: off
   consistent-this: off
   eol-last: off
+  func-call-spacing: off
   func-names: off
   func-style: off
   id-blacklist: off
@@ -172,7 +174,6 @@ rules:
   no-new-object: off
   no-plusplus: off
   no-restricted-syntax: off
-  no-spaced-func: off
   no-tabs: off
   no-ternary: off
   no-trailing-spaces: off
@@ -192,6 +193,7 @@ rules:
   require-jsdoc: off
   ###semi: off
   semi-spacing: off
+  sort-keys: off
   sort-vars: off
   space-before-blocks: off
   space-before-function-paren: off

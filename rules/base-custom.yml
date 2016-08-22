@@ -25,14 +25,15 @@ rules:
   #no-inner-declarations: error
   #no-invalid-regexp: error
   #no-irregular-whitespace: error
-  #no-negated-in-lhs: error
   #no-obj-calls: error
   no-prototype-builtins: off
   #no-regex-spaces: error
   #no-sparse-arrays: error
+  no-template-curly-in-string: error
   #no-unexpected-multiline: error
   #no-unreachable: error
   #no-unsafe-finally: error
+  no-unsafe-negation: error
   #use-isnan: error
   valid-jsdoc: off
   #valid-typeof: error
@@ -64,6 +65,7 @@ rules:
   no-extra-label: off
   #no-fallthrough: error
   no-floating-decimal: error
+  no-global-assign: error
   no-implicit-coercion: off
   no-implicit-globals: off
   no-implied-eval: error
@@ -75,7 +77,6 @@ rules:
   no-magic-numbers: off
   no-multi-spaces: error
   no-multi-str: error
-  #no-native-reassign: error
   no-new: error
   no-new-func: error
   no-new-wrappers: error
@@ -135,6 +136,7 @@ rules:
   computed-property-spacing: error
   consistent-this: off
   eol-last: error
+  func-call-spacing: error
   func-names: off
   func-style: off
   id-blacklist: off
@@ -172,7 +174,6 @@ rules:
   no-new-object: error
   no-plusplus: off
   no-restricted-syntax: off
-  no-spaced-func: error
   no-tabs: off
   no-ternary: off
   no-trailing-spaces: error
@@ -192,6 +193,7 @@ rules:
   require-jsdoc: off
   ###semi: off
   semi-spacing: error
+  sort-keys: off
   sort-vars: off
   space-before-blocks: error
   space-before-function-paren: [error, {anonymous: always, named: never}]
