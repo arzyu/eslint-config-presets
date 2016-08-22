@@ -6,7 +6,7 @@
 
 ### Install
 
-#### presets/default, presets/nodejs
+#### presets/default, presets/nodejs, presets/chrome
 
 ```bash
 npm install --save-dev eslint babel-eslint arzyu/eslint-config-presets
@@ -44,6 +44,7 @@ There are 2 ways to use these presets:
 	#   `presets/angular`
 	#   `presets/react`
 	#   `presets/react-native`
+	#   `presets/chrome`
 
 	extends: presets/react
 	```
