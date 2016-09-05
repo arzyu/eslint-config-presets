@@ -43,6 +43,7 @@ rules:
   accessor-pairs: off
   array-callback-return: error
   block-scoped-var: error
+  class-methods-use-this: error
   complexity: off
   consistent-return: error
   curly: [error, all]
@@ -233,6 +234,7 @@ rules:
   #require-yield: error
   rest-spread-spacing: error
   sort-imports: off
+  symbol-description: off
   template-curly-spacing: error
   yield-star-spacing: [error, before]
 
