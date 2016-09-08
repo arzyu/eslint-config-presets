@@ -83,7 +83,7 @@ rules:
   no-new-wrappers: error
   #no-octal: error
   no-octal-escape: error
-  no-param-reassign: [error, {props: true}]
+  no-param-reassign: error
   no-proto: error
   #no-redeclare: error
   no-return-assign: error
@@ -182,7 +182,7 @@ rules:
   no-unneeded-ternary: error
   no-whitespace-before-property: error
   object-curly-newline: off
-  object-curly-spacing: [error, always]
+  object-curly-spacing: [error, always, {arraysInObjects: false, objectsInObjects: false}]
   object-property-newline: off
   one-var: off
   one-var-declaration-per-line: off
@@ -208,7 +208,7 @@ rules:
   ## ECMAScript 6
 
   arrow-body-style: error
-  arrow-parens: error
+  arrow-parens: [error, as-needed, {requireForBlockBody: true}]
   arrow-spacing: error
   #constructor-super: error
   generator-star-spacing: [error, before]
