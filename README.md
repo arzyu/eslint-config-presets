@@ -64,3 +64,9 @@ There are 2 ways to use these presets:
 These are mine config files. They may not meet all your specific needs.
 I recommend you **fork** it and do the appropriate adjustments to fit your needs.
 
+After forking this repository, you can also rename it by running `./rename-preset.sh`.
+
+```
+arzyu/eslint-config-presets => {GITHUB_USER}/eslint-config-{PRESET_NAME}
+```
+
