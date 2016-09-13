@@ -13,7 +13,6 @@ extends:
 
   # custom rules
   - presets/rules/base-custom.yml
-  - presets/rules/node-custom.yml
 
   # shortcut options
   - presets/rules/space-2.yml
