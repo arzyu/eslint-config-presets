@@ -147,8 +147,10 @@ rules:
   jsx-quotes: off
   key-spacing: error
   keyword-spacing: error
+  line-comment-position: error
   linebreak-style: off
   lines-around-comment: [error, {allowBlockStart: true}]
+  lines-around-directive: off
   max-depth: off
   max-len: off
   max-lines: off
@@ -227,6 +229,7 @@ rules:
   object-shorthand: [error, always, {avoidQuotes: true}]
   prefer-arrow-callback: error
   prefer-const: [error, {ignoreReadBeforeAssign: true}]
+  prefer-numeric-literals: error
   prefer-reflect: off
   prefer-rest-params: error
   prefer-spread: error

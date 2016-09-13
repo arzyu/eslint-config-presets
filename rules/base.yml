@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.4.0
+  ## based on eslint v3.5.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -147,8 +147,10 @@ rules:
   jsx-quotes: off
   key-spacing: off
   keyword-spacing: off
+  line-comment-position: off
   linebreak-style: off
   lines-around-comment: off
+  lines-around-directive: off
   max-depth: off
   max-len: off
   max-lines: off
@@ -227,6 +229,7 @@ rules:
   object-shorthand: off
   prefer-arrow-callback: off
   prefer-const: off
+  prefer-numeric-literals: off
   prefer-reflect: off
   prefer-rest-params: off
   prefer-spread: off
