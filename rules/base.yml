@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.6.0
+  ## based on eslint v3.8.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -152,6 +152,7 @@ rules:
   consistent-this: off
   eol-last: off
   func-call-spacing: off
+  func-name-matching: off
   func-names: off
   func-style: off
   id-blacklist: off

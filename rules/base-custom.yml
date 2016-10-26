@@ -152,6 +152,7 @@ rules:
   consistent-this: off
   eol-last: error
   func-call-spacing: error
+  func-name-matching: error
   func-names: off
   func-style: off
   id-blacklist: off
