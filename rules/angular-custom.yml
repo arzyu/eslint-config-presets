@@ -1,3 +1,5 @@
 ---
 rules:
   angular/controller-name: [error, '/[A-Z].*Ctrl$/']
+  angular/json-functions: off
+
