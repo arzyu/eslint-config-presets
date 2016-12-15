@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.8.0
+  ## based on eslint v3.9.1
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -98,6 +98,7 @@ rules:
   no-useless-call: off
   no-useless-concat: off
   no-useless-escape: off
+  no-useless-return: off
   no-void: off
   no-warning-comments: off
   no-with: off

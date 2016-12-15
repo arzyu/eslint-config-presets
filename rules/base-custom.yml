@@ -98,6 +98,7 @@ rules:
   no-useless-call: off
   no-useless-concat: error
   no-useless-escape: error
+  no-useless-return: error
   no-void: off
   no-warning-comments: off
   no-with: error
