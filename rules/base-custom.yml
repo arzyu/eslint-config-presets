@@ -104,6 +104,7 @@ rules:
   no-warning-comments: off
   no-with: error
   radix: error
+  require-await: error
   vars-on-top: error
   wrap-iife: [error, outside]
   yoda: error
@@ -147,6 +148,7 @@ rules:
   block-spacing: [error, never]
   brace-style: error
   camelcase: error
+  capitalized-comments: off
   comma-spacing: error
   ###comma-dangle: off
   comma-style: off

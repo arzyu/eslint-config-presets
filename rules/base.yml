@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.10.2
+  ## based on eslint v3.11.1
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -104,6 +104,7 @@ rules:
   no-warning-comments: off
   no-with: off
   radix: off
+  require-await: off
   vars-on-top: off
   wrap-iife: off
   yoda: off
@@ -147,6 +148,7 @@ rules:
   block-spacing: off
   brace-style: off
   camelcase: off
+  capitalized-comments: off
   comma-spacing: off
   ###comma-dangle: off
   comma-style: off
