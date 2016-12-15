@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.9.1
+  ## based on eslint v3.10.2
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -87,6 +87,7 @@ rules:
   no-proto: off
   #no-redeclare: error
   no-return-assign: off
+  no-return-await: off
   no-script-url: off
   #no-self-assign: error
   no-self-compare: off
