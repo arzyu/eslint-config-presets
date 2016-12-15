@@ -1,12 +1,13 @@
 ---
 rules:
 
-  ## based on eslint v3.11.1
+  ## based on eslint v3.12.2
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
   ## Possible Errors
 
+  no-await-in-loop: off
   #no-cond-assign: error
   #no-console: error
   #no-constant-condition: error
