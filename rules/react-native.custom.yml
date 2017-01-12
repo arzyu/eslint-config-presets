@@ -1,0 +1,8 @@
+# vim: ft=yaml
+---
+extends:
+  - presets/rules/react.custom.yml
+  - plugin:react-native/all
+rules:
+  react-native/no-color-literals: off
+

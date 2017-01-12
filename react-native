@@ -1,6 +1,7 @@
 # vim: ft=yaml
 ---
 extends:
+  # dependencies: eslint-plugin-react eslint-plugin-react-native
   - presets/misc/react-native.yml
 
   # env
@@ -17,7 +18,6 @@ extends:
   - presets/rules/space-2.yml
   - presets/rules/semi-always.yml
 
-  # dependencies: eslint-plugin-react eslint-plugin-react-native
-  # use react recommended rules
-  - plugin:react/recommended
+  # use react-native custom rules
+  - presets/rules/react-native.custom.yml
 

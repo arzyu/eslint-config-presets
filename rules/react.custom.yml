@@ -1,0 +1,5 @@
+# vim: ft=yaml
+---
+extends:
+  - plugin:react/recommended
+
