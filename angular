@@ -11,7 +11,7 @@ extends:
   - presets/rules/recommended.yml
 
   # custom rules
-  - presets/rules/base-custom.yml
+  - presets/rules/base.custom.yml
 
   # shortcut options
   - presets/rules/space-2.yml
@@ -20,5 +20,5 @@ extends:
   # config for angular
   # dependencies: eslint-plugin-angular, eslint-config-angular
   - angular
-  - presets/rules/angular-custom.yml
+  - presets/rules/angular.custom.yml
 

@@ -10,7 +10,7 @@ extends:
   - presets/rules/recommended.yml
 
   # custom rules
-  - presets/rules/base-custom.yml
+  - presets/rules/base.custom.yml
 
   # shortcut options
   - presets/rules/space-2.yml
