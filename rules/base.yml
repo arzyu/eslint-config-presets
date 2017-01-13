@@ -1,7 +1,7 @@
 ---
 rules:
 
-  ## based on eslint v3.12.2
+  ## based on eslint v3.13.1
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
@@ -249,6 +249,7 @@ rules:
   object-shorthand: off
   prefer-arrow-callback: off
   prefer-const: off
+  prefer-destructuring: off
   prefer-numeric-literals: off
   prefer-reflect: off
   prefer-rest-params: off

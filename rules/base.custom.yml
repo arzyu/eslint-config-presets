@@ -249,6 +249,7 @@ rules:
   object-shorthand: [error, always, {avoidQuotes: true}]
   prefer-arrow-callback: error
   prefer-const: [error, {ignoreReadBeforeAssign: true}]
+  prefer-destructuring: error
   prefer-numeric-literals: error
   prefer-reflect: off
   prefer-rest-params: error
