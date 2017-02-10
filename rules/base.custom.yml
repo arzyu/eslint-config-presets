@@ -226,6 +226,7 @@ rules:
   space-infix-ops: error
   space-unary-ops: error
   spaced-comment: error
+  template-tag-spacing: [error, always]
   unicode-bom: error
   wrap-regex: off
 
