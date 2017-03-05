@@ -1,13 +1,14 @@
 ---
 rules:
 
-  ## based on eslint v3.15.0
+  ## based on eslint v3.17.0
   ## Comment out all the recommended rules with '#'
   ## Comment out all the externally defined rules with '###'
 
   ## Possible Errors
 
   no-await-in-loop: off
+  no-compare-neg-zero: off
   #no-cond-assign: error
   #no-console: error
   #no-constant-condition: error
@@ -205,6 +206,7 @@ rules:
   no-underscore-dangle: off
   no-unneeded-ternary: off
   no-whitespace-before-property: off
+  nonblock-statement-body-position: off
   object-curly-newline: off
   object-curly-spacing: [off, never]
   object-property-newline: off

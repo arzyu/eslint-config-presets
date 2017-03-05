@@ -8,6 +8,7 @@ rules:
   ## Possible Errors
 
   no-await-in-loop: error
+  no-compare-neg-zero: error
   #no-cond-assign: error
   #no-console: error
   #no-constant-condition: error
@@ -205,6 +206,7 @@ rules:
   no-underscore-dangle: [error, {allowAfterThis: true}]
   no-unneeded-ternary: error
   no-whitespace-before-property: error
+  nonblock-statement-body-position: error
   object-curly-newline: off
   object-curly-spacing: [error, always, {arraysInObjects: false, objectsInObjects: false}]
   object-property-newline: off
