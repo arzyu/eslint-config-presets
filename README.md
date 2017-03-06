@@ -46,6 +46,7 @@ There are 2 ways to use these presets:
 	#   `presets/react-native`
 	#   `presets/chrome`
 
+	parser: babel-eslint
 	extends: presets/react
 	```
 
@@ -54,6 +55,7 @@ There are 2 ways to use these presets:
 	```json
 	{
 	  "eslintConfig": {
+		"parser": "babel-eslint",
 		"extends": "presets/angular"
 	  }
 	}
