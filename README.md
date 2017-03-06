@@ -1,6 +1,6 @@
 # eslint-config-presets
 
-> Happy coding using multiple config of eslint.
+> Happy coding using multiple configurations of eslint.
 
 ## Try it
 
