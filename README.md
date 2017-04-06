@@ -55,8 +55,8 @@ There are 2 ways to use these presets:
 	```json
 	{
 	  "eslintConfig": {
-		"parser": "babel-eslint",
-		"extends": "presets/angular"
+	    "parser": "babel-eslint",
+	    "extends": "presets/angular"
 	  }
 	}
 	```
