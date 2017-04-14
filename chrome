@@ -9,12 +9,7 @@ extends:
   - presets/env/chrome.yml
 
   # use recommended rules
-  - presets/rules/recommended.yml
+  - eslint:recommended
 
   # custom rules
   - presets/rules/base.custom.yml
-
-  # shortcut options
-  - presets/rules/space-2.yml
-  - presets/rules/semi-always.yml
-
