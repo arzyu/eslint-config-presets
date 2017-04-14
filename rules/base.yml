@@ -3,7 +3,6 @@ rules:
 
   ## based on eslint v3.17.0
   ## Comment out all the recommended rules with '#'
-  ## Comment out all the externally defined rules with '###'
 
   ## Possible Errors
 
@@ -153,7 +152,7 @@ rules:
   camelcase: off
   capitalized-comments: off
   comma-spacing: off
-  ###comma-dangle: off
+  comma-dangle: off
   comma-style: off
   computed-property-spacing: off
   consistent-this: off
@@ -165,7 +164,7 @@ rules:
   id-blacklist: off
   id-length: off
   id-match: off
-  ###indent: off
+  indent: off
   jsx-quotes: off
   key-spacing: off
   keyword-spacing: off
@@ -218,7 +217,7 @@ rules:
   quote-props: off
   quotes: off
   require-jsdoc: off
-  ###semi: off
+  semi: off
   semi-spacing: off
   sort-keys: off
   sort-vars: off
