@@ -5,4 +5,5 @@ parserOptions:
   sourceType: module
   ecmaFeatures:
     impliedStrict: true
-
+env:
+  es6: true
