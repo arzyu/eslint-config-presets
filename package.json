@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "Eslint config presets.",
   "main": "default",
+  "files": [
+    "*",
+    "!packages/",
+    "!lerna.json"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/arzyu/eslint-config-presets"
