@@ -4,61 +4,50 @@
 
 ## Try it
 
-### Install
-
-#### presets/default, presets/nodejs, presets/chrome
+### Select and install one of these presets
 
 ```bash
-npm install --save-dev eslint babel-eslint arzyu/eslint-config-presets
+## install default preset
+npm install --save-dev eslint-config-arzyu
+
+## install nodejs preset
+npm install --save-dev eslint-config-arzyu-nodejs
+
+## install chrome preset
+npm install --save-dev eslint-config-arzyu-chrome
+
+## install angular preset
+npm install --save-dev eslint-config-arzyu-angular
+
+## install react preset
+npm install --save-dev eslint-config-arzyu-react
+
+## install react-native preset
+npm install --save-dev eslint-config-arzyu-react-native
 ```
 
-#### presets/angular
+### Use preset
 
-```bash
-npm install --save-dev eslint babel-eslint eslint-plugin-angular eslint-config-angular arzyu/eslint-config-presets
-```
+Suppose you have installed `eslint-config-arzyu-react`.
 
-#### presets/react
+There are two ways to use a preset:
 
-```bash
-npm install --save-dev eslint babel-eslint eslint-plugin-react arzyu/eslint-config-presets
-```
-
-#### presets/react-native
-
-```bash
-npm install --save-dev eslint babel-eslint eslint-plugin-react eslint-plugin-react-native arzyu/eslint-config-presets
-```
-
-### Use presets
-
-There are 2 ways to use these presets:
-
-1. Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project.
-
-	```yaml
-	---
-	# All available presets:
-	#   `presets/default`, or use `presets` for short
-	#   `presets/nodejs`
-	#   `presets/angular`
-	#   `presets/react`
-	#   `presets/react-native`
-	#   `presets/chrome`
-
-	parser: babel-eslint
-	extends: presets/react
-	```
-
-2. Add `eslintConfig` option to `package.json`.
+1. Add `eslintConfig` option to `package.json`.
 
 	```json
 	{
 	  "eslintConfig": {
 	    "parser": "babel-eslint",
-	    "extends": "presets/angular"
+	    "extends": "arzyu-react"
 	  }
 	}
+	```
+
+2. Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project.
+
+	```yaml
+	parser: babel-eslint
+	extends: arzyu-react
 	```
 
 ## Fork it
@@ -71,4 +60,3 @@ After forking this repository, you can also rename it by running `./rename-prese
 ```
 arzyu/eslint-config-presets => {GITHUB_USER}/eslint-config-{PRESET_NAME}
 ```
-

@@ -1,0 +1,20 @@
+{
+  "name": "eslint-config-arzyu",
+  "version": "1.0.0",
+  "description": "Eslint config preset.",
+  "main": "index.yml",
+  "dependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-presets": "arzyu/eslint-config-presets#v1.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arzyu/eslint-config-presets"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "license": "MIT"
+}
