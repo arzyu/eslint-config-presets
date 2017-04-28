@@ -5,9 +5,11 @@
   "main": "index.yml",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0",
     "eslint-config-presets": "arzyu/eslint-config-presets#v1.0.0",
     "eslint-plugin-react": "^6.10.3"
+  },
+  "peerDependencies": {
+    "eslint": "^3.19.0"
   },
   "repository": {
     "type": "git",
