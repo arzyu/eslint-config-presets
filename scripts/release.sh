@@ -26,7 +26,9 @@ function release() {
   git push origin master $version
 
   ## update dependency and publish
-  lerna exec yarn add "arzyu/eslint-config-presets#$version" --no-progress
+  git_url=$(git remote get-url --push origin)
+  github_repo_id=$(dirname $(grep -Eo '[^:/]+/[^/]+$' <<< "$git_url"))/$(basename $git_url .git)
+  lerna exec yarn add "$github_repo_id#$version" --no-progress
   lerna publish --cd-version $version_category --yes --skip-git
 
   ## commit updated versions and push
