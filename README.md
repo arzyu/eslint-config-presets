@@ -34,21 +34,21 @@ Suppose you have installed `eslint-config-arzyu-react`, and then:
 
 Add `eslintConfig` option to `package.json`:
 
-	```json
-	{
-	  "eslintConfig": {
-	    "parser": "babel-eslint",
-	    "extends": "arzyu-react"
-	  }
-	}
-	```
+```json
+{
+  "eslintConfig": {
+    "parser": "babel-eslint",
+    "extends": "arzyu-react"
+  }
+}
+```
 
 or Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project:
 
-	```yaml
-	parser: babel-eslint
-	extends: arzyu-react
-	```
+```yaml
+parser: babel-eslint
+extends: arzyu-react
+```
 
 ## Fork it
 
