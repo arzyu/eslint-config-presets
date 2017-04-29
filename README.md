@@ -8,31 +8,31 @@
 
 ```bash
 ## install default preset
-npm install --save-dev eslint-config-arzyu
+yarn add -D eslint-config-arzyu
 
 ## install nodejs preset
-npm install --save-dev eslint-config-arzyu-nodejs
+yarn add -D eslint-config-arzyu-nodejs
 
 ## install chrome preset
-npm install --save-dev eslint-config-arzyu-chrome
+yarn add -D eslint-config-arzyu-chrome
 
 ## install angular preset
-npm install --save-dev eslint-config-arzyu-angular
+yarn add -D eslint-config-arzyu-angular
 
 ## install react preset
-npm install --save-dev eslint-config-arzyu-react
+yarn add -D eslint-config-arzyu-react
 
 ## install react-native preset
-npm install --save-dev eslint-config-arzyu-react-native
+yarn add -D eslint-config-arzyu-react-native
 ```
 
 ### Use preset
 
-Suppose you have installed `eslint-config-arzyu-react`.
+There are two ways to use a preset.
 
-There are two ways to use a preset:
+Suppose you have installed `eslint-config-arzyu-react`, and then:
 
-1. Add `eslintConfig` option to `package.json`.
+Add `eslintConfig` option to `package.json`:
 
 	```json
 	{
@@ -43,7 +43,7 @@ There are two ways to use a preset:
 	}
 	```
 
-2. Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project.
+or Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project:
 
 	```yaml
 	parser: babel-eslint
