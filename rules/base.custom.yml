@@ -1,4 +1,3 @@
----
 rules:
 
   ## Custom settings of `base.yml`
@@ -265,4 +264,3 @@ rules:
   symbol-description: off
   template-curly-spacing: error
   yield-star-spacing: [error, before]
-

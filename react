@@ -1,5 +1,5 @@
 # vim: ft=yaml
----
+
 extends:
   # dependencies: eslint-plugin-react
   - presets/misc/react.yml

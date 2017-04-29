@@ -1,5 +1,5 @@
 # vim: ft=yaml
----
+
 extends:
   # dependencies: eslint-plugin-react eslint-plugin-react-native
   - presets/misc/react-native.yml

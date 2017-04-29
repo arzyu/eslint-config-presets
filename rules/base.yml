@@ -1,4 +1,3 @@
----
 rules:
 
   ## based on eslint v3.17.0
@@ -265,4 +264,3 @@ rules:
   symbol-description: off
   template-curly-spacing: off
   yield-star-spacing: off
-

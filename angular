@@ -1,5 +1,5 @@
 # vim: ft=yaml
----
+
 extends:
   - presets/misc/parser.yml
 
