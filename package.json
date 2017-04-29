@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Eslint config presets.",
   "main": "default",
+  "scripts": {
+    "release": "./scripts/release.sh"
+  },
   "files": [
     "*",
     "!packages/",
