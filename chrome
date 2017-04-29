@@ -1,12 +1,14 @@
 # vim: ft=yaml:
 
+env:
+  browser: true
+  node: true
+
+globals:
+  chrome: true
+
 extends:
   - presets/misc/parser.yml
-
-  # env
-  - presets/env/browser.yml
-  - presets/env/node.yml
-  - presets/env/chrome.yml
 
   # use recommended rules
   - eslint:recommended

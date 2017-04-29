@@ -1,12 +1,13 @@
 # vim: ft=yaml
 
+env:
+  node: true
+
 extends:
+  - presets/misc/parser.yml
+
   # dependencies: eslint-plugin-react eslint-plugin-react-native
   - presets/misc/react-native.yml
-
-  # env
-  - presets/env/browser.yml
-  - presets/env/node.yml
 
   # use recommended rules
   - eslint:recommended

@@ -1,11 +1,11 @@
 # vim: ft=yaml
 
+env:
+  browser: true
+  node: true
+
 extends:
   - presets/misc/parser.yml
-
-  # env
-  - presets/env/browser.yml
-  - presets/env/node.yml
 
   # use recommended rules
   - eslint:recommended
