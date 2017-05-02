@@ -5,13 +5,14 @@ env:
   node: true
 
 extends:
+  # use recommended rules
+  - eslint:recommended
+
+  # custom parser
   - presets/misc/parser.yml
 
   # dependencies: eslint-plugin-react
   - presets/misc/react.yml
-
-  # use recommended rules
-  - eslint:recommended
 
   # custom rules
   - presets/rules/base.custom.yml

@@ -37,7 +37,6 @@ Add `eslintConfig` option to `package.json`:
 ```json
 {
   "eslintConfig": {
-    "parser": "babel-eslint",
     "extends": "arzyu-react"
   }
 }
@@ -46,7 +45,6 @@ Add `eslintConfig` option to `package.json`:
 or Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your project:
 
 ```yaml
-parser: babel-eslint
 extends: arzyu-react
 ```
 
