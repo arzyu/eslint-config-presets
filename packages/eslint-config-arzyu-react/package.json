@@ -15,6 +15,9 @@
     "type": "git",
     "url": "https://github.com/arzyu/eslint-config-presets"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
