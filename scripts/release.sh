@@ -19,21 +19,21 @@ function release() {
     * ) die "Error: Need version category: major, minor or patch.";;
   esac
 
-  version=$(npm version $version_category --no-git-tag-version)
+  version=$(npm version $version_category -m "chore: release v%s")
 
-  ## create tag and push
-  git tag $version
+  ## push master and tag
   git push origin master $version
 
   ## update dependency and publish
   git_url=$(git remote get-url --push origin)
   github_repo_id=$(dirname $(grep -Eo '[^:/]+/[^/]+$' <<< "$git_url"))/$(basename $git_url .git)
-  lerna exec yarn add "$github_repo_id#$version" --no-progress
-  lerna publish --cd-version $version_category --yes --skip-git
+  lerna exec --concurrency 1 "yarn add $github_repo_id#$version --no-progress"; wait
+  lerna publish --repo-version ${version:1} --skip-git --yes
 
   ## commit updated versions and push
-  git commit -am "chore: release packages $version"
+  git commit -am "chore: update packages"
   git push origin master
+
 }
 
 release $@
