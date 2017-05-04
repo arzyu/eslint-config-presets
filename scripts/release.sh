@@ -27,8 +27,8 @@ function release() {
   ## update dependency and publish
   git_url=$(git remote get-url --push origin)
   github_repo_id=$(dirname $(grep -Eo '[^:/]+/[^/]+$' <<< "$git_url"))/$(basename $git_url .git)
-  lerna exec --concurrency 1 "yarn add $github_repo_id#$version --no-progress"; wait
-  lerna publish --repo-version ${version:1} --skip-git --yes
+  $(npm bin)/lerna exec --concurrency 1 "yarn add $github_repo_id#$version --no-progress"; wait
+  $(npm bin)/lerna publish --repo-version ${version:1} --skip-git --yes
 
   ## commit updated versions and push
   git commit -am "chore: update packages"
