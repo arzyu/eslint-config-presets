@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-arzyu-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Eslint config preset for react.",
   "main": "index.yml",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-config-presets": "arzyu/eslint-config-presets#v2.0.0",
+    "eslint-config-presets": "arzyu/eslint-config-presets#v2.0.1",
     "eslint-plugin-react": "^6.10.3"
   },
   "peerDependencies": {
