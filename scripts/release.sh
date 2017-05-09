@@ -19,15 +19,15 @@ function release() {
     * ) die "Error: Need version category: major, minor or patch.";;
   esac
 
-  last_release_version="$(cat lerna.json | grep '"version"' | cut -d '"' -f 4)"
-  local_package_version="$(cat package.json | grep '"version"' | cut -d '"' -f 4)"
+  last_release_version="v$(cat lerna.json | grep '"version"' | cut -d '"' -f 4)"
+  package_version="v$(cat package.json | grep '"version"' | cut -d '"' -f 4)"
 
   ## test whether a new version exists
-  if [[ "$local_package_version" != "$last_release_version" ]]; then
-    version=$(printf "$last_release_version\n$local_package_version" \
+  if [[ "$package_version" != "$last_release_version" ]]; then
+    version=$(printf "$last_release_version\n$package_version" \
               | sort -t. -k 1,1nr -k 2,2nr -k 3,3nr | head -1)
 
-    if [[ "$version" != "$local_package_version" ]]; then
+    if [[ "$version" != "$package_version" ]]; then
       die "Error: unexpected version in package.json."
     fi
   else
