@@ -10,7 +10,7 @@
     "eslint-plugin-react-native": "^2.3.2"
   },
   "peerDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^4.0.0"
   },
   "repository": {
     "type": "git",
