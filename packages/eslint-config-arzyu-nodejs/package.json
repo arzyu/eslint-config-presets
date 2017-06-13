@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-arzyu-nodejs",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Eslint config preset for nodejs.",
   "main": "index.yml",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.0"
+    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.1"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"

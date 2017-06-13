@@ -1,12 +1,12 @@
 {
   "name": "eslint-config-arzyu-angular",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Eslint config preset for angular.",
   "main": "index.yml",
   "dependencies": {
     "babel-eslint": "^7.2.3",
     "eslint-config-angular": "^0.5.0",
-    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.0",
+    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.1",
     "eslint-plugin-angular": "^2.4.0"
   },
   "peerDependencies": {
