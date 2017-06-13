@@ -48,6 +48,12 @@ or Create a eslint config file (e.g. `.eslintrc.yml`) on top level of your proje
 extends: arzyu-react
 ```
 
+## Publish packages
+
+```shell
+yarn release -- <patch|minor|major>
+```
+
 ## Fork it
 
 These are mine config files. They may not meet all your specific needs.
