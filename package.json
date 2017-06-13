@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-presets",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Eslint config presets.",
   "main": "default",
   "scripts": {
