@@ -1,10 +1,11 @@
 rules:
 
-  ## based on eslint v3.17.0
+  ## based on eslint v4.0.0
   ## Comment out all the recommended rules with '#'
 
   ## Possible Errors
 
+  for-direction: off
   no-await-in-loop: off
   no-compare-neg-zero: off
   #no-cond-assign: error
@@ -134,6 +135,7 @@ rules:
   callback-return: off
   global-require: off
   handle-callback-err: off
+  no-buffer-constructor: off
   no-mixed-requires: off
   no-new-require: off
   no-path-concat: off
@@ -145,7 +147,9 @@ rules:
 
   ## Stylistic Issues
 
+  array-bracket-newline: off
   array-bracket-spacing: off
+  array-element-newline: off
   block-spacing: off
   brace-style: off
   camelcase: off
@@ -170,7 +174,6 @@ rules:
   line-comment-position: off
   linebreak-style: off
   lines-around-comment: off
-  lines-around-directive: off
   max-depth: off
   max-len: off
   max-lines: off
@@ -181,8 +184,6 @@ rules:
   multiline-ternary: off
   new-cap: off
   new-parens: off
-  newline-after-var: off
-  newline-before-return: off
   newline-per-chained-call: off
   no-array-constructor: off
   no-bitwise: off
@@ -213,11 +214,13 @@ rules:
   operator-assignment: off
   operator-linebreak: off
   padded-blocks: off
+  padding-line-between-statements: off
   quote-props: off
   quotes: off
   require-jsdoc: off
   semi: off
   semi-spacing: off
+  semi-style: off
   sort-keys: off
   sort-vars: off
   space-before-blocks: off
@@ -226,6 +229,7 @@ rules:
   space-infix-ops: off
   space-unary-ops: off
   spaced-comment: off
+  switch-colon-spacing: off
   template-tag-spacing: off
   unicode-bom: off
   wrap-regex: off
