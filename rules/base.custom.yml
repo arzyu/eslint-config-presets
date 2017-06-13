@@ -214,7 +214,7 @@ rules:
   operator-linebreak: off
   padded-blocks: [error, never]
   quote-props: off
-  quotes: [error, single, {avoidEscape: true}]
+  quotes: [error, double, {avoidEscape: true}]
   require-jsdoc: off
   semi: [error, always]
   semi-spacing: error
