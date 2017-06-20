@@ -215,12 +215,12 @@ rules:
   operator-linebreak: off
   padded-blocks: [error, never]
   padding-line-between-statements: [error,
-    {blankLine: always, prev: import, next: *},
+    {blankLine: always, prev: import, next: "*"},
     {blankLine: any, prev: import, next: import},
-    {blankLine: always, prev: directive, next: *},
+    {blankLine: always, prev: directive, next: "*"},
     {blankLine: any, prev: directive, next: directive},
-    {blankLine: always, prev: *, next: return},
-    {blankLine: always, prev: [const, let], next: *},
+    {blankLine: always, prev: "*", next: return},
+    {blankLine: always, prev: [const, let], next: "*"},
     {blankLine: any, prev: [const, let], next: [const, let]},
   ]
   quote-props: off
