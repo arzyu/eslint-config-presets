@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-arzyu-chrome",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Eslint config preset for chrome.",
   "main": "index.yml",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.1"
+    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.2"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"

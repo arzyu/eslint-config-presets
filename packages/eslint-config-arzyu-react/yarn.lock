@@ -129,13 +129,13 @@ escape-string-regexp@^1.0.2:
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
-eslint-config-presets@arzyu/eslint-config-presets#v3.0.0:
-  version "3.0.0"
-  resolved "https://codeload.github.com/arzyu/eslint-config-presets/tar.gz/0781256f3ead03a2335261844dd22e30723cb5c6"
-
 eslint-config-presets@arzyu/eslint-config-presets#v3.0.1:
   version "3.0.1"
   resolved "https://codeload.github.com/arzyu/eslint-config-presets/tar.gz/1440f0538b17bffcb9772063c85ed37203fa8fcb"
+
+eslint-config-presets@arzyu/eslint-config-presets#v3.0.2:
+  version "3.0.2"
+  resolved "https://codeload.github.com/arzyu/eslint-config-presets/tar.gz/24b38dcb19962b47bf556cc70a70b01c7b9bc862"
 
 eslint-plugin-react@^6.10.3:
   version "6.10.3"
