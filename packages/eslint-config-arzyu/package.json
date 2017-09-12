@@ -1,11 +1,11 @@
 {
   "name": "eslint-config-arzyu",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Eslint config preset.",
   "main": "index.yml",
   "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.2"
+    "eslint-config-presets": "arzyu/eslint-config-presets#v3.0.3"
   },
   "peerDependencies": {
     "eslint": "^4.0.0"

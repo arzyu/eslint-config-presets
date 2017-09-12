@@ -95,13 +95,13 @@ eslint-config-angular@^0.5.0:
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/eslint-config-angular/-/eslint-config-angular-0.5.0.tgz#e0aae0132e39e7467df3f7547fec81a44d3685c4"
 
-eslint-config-presets@arzyu/eslint-config-presets#v3.0.1:
-  version "3.0.1"
-  resolved "https://codeload.github.com/arzyu/eslint-config-presets/tar.gz/1440f0538b17bffcb9772063c85ed37203fa8fcb"
-
 eslint-config-presets@arzyu/eslint-config-presets#v3.0.2:
   version "3.0.2"
   resolved "https://codeload.github.com/arzyu/eslint-config-presets/tar.gz/24b38dcb19962b47bf556cc70a70b01c7b9bc862"
+
+eslint-config-presets@arzyu/eslint-config-presets#v3.0.3:
+  version "3.0.3"
+  resolved "https://codeload.github.com/arzyu/eslint-config-presets/tar.gz/be8e9d971562bf215a65be4b2a607e9a0573fa12"
 
 eslint-plugin-angular@^2.4.0:
   version "2.4.2"
