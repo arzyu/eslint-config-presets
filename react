@@ -4,18 +4,13 @@ env:
   browser: true
   node: true
 
+parser: "@typescript-eslint/parser"
+
+plugins:
+  - "@typescript-eslint"
+
 extends:
-  # use recommended rules
   - eslint:recommended
-
-  # custom parser
-  - presets/misc/parser.yml
-
-  # dependencies: eslint-plugin-react
-  - presets/misc/react.yml
-
-  # custom rules
-  - presets/rules/base.custom.yml
-
-  # use react custom rules
-  - presets/rules/react.custom.yml
+  - plugin:@typescript-eslint/recommended
+  - plugin:react/recommended
+  - plugin:react-hooks/recommended

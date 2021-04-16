@@ -1,22 +1,16 @@
 {
-  "name": "eslint-config-presets",
-  "version": "3.0.3",
+  "name": "@arzyu/eslint-config-presets",
+  "version": "0.1.1",
   "description": "Eslint config presets.",
-  "main": "default",
-  "scripts": {
-    "release": "./scripts/release.sh"
-  },
   "files": [
     "*",
-    "!packages/",
-    "!lerna.json"
+    "!.editorconfig",
+    "!.gitignore",
+    "!packages/"
   ],
   "repository": {
     "type": "git",
     "url": "https://github.com/arzyu/eslint-config-presets"
-  },
-  "devDependencies": {
-    "lerna": "^2.0.0-rc.4"
   },
   "keywords": [
     "eslint",

@@ -1,5 +1,0 @@
-extends:
-  - presets/misc/react.yml
-
-plugins:
-  - react-native
