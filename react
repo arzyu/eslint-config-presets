@@ -14,3 +14,9 @@ extends:
   - plugin:@typescript-eslint/recommended
   - plugin:react/recommended
   - plugin:react-hooks/recommended
+
+settings:
+  react:
+    # supress the warning:
+    # Warning: React version not specified in eslint-plugin-react settings. See https://github.com/yannickcr/eslint-plugin-react#configuration .
+    version: detect

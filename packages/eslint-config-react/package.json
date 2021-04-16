@@ -1,10 +1,10 @@
 {
   "name": "@arzyu/eslint-config-react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "typescript-eslint for react",
   "main": "index.yml",
   "dependencies": {
-    "@arzyu/eslint-config-presets": "^0.1.1",
+    "@arzyu/eslint-config-presets": "^0.1.2",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint-plugin-react": "^7.23.2",
