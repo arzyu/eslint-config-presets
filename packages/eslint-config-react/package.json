@@ -5,10 +5,10 @@
   "main": "index.yml",
   "dependencies": {
     "@arzyu/eslint-config-presets": "^0.1.4",
-    "@typescript-eslint/eslint-plugin": "^4.33.0",
-    "@typescript-eslint/parser": "^4.33.0",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "@typescript-eslint/eslint-plugin": "^5.10.1",
+    "@typescript-eslint/parser": "^5.10.1",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "peerDependencies": {
     "eslint": "^7.0.0"
